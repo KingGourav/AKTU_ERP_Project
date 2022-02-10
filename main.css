@@ -1,0 +1,122 @@
+.t:hover
+{
+
+background-color: orange;
+}
+.top
+{
+	font-size: 14px;
+}
+.a
+{
+	box-shadow: 2px 4px 2px rgba(0,0,0,0.3);
+	margin-top: 1px;
+}
+.dropdown-item:hover
+{
+	border-bottom: 3px solid orange;
+}
+img
+{
+	width: 100%;
+	height: 500px;
+}
+h5
+{
+	color: orange;
+}
+.to:hover
+{
+	border-bottom: 4px solid orange;
+	box-shadow: none;
+}
+.glass
+{
+	background:rgba(255,255,255,0.2);
+	border-radius: 6px;
+	box-shadow: 0 5px 35px rgba(0,0,0,0.2);
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	transition: 0.4s;
+
+
+}
+.glass:hover
+{
+	border-bottom: 3px solid orange;
+}
+.card-body:hover
+{
+	box-shadow: none;
+	border-bottom: 2px solid orange;
+}
+.card:hover
+{
+	box-shadow: none;
+}
+.icons
+{
+	top: 70%;
+	left: 0;
+	transform: translateY(-50%);
+	position: fixed;
+	z-index: 100;
+}
+.icons ul
+{
+	padding: initial;
+}
+.icons ul li
+{
+	height: 40px;
+	width: 40px;
+	list-style-type: none;
+	padding-left: 12px;
+	padding-top: 6px;
+	margin-top: 5px;
+	color: #fff;
+	
+}
+.facebook
+{
+	background:#3b5998;
+}
+.twitter
+{
+	background:#55acee;
+}
+.youtube
+{
+	background:#ff0000;
+}
+.linkedin
+{
+	background:#007bb5;
+}
+.instagram
+{
+	background:#ff4800;
+}
+.icons ul li:hover
+{
+	padding-left: 30px;
+	width: 80px;
+	transition: 1s;
+}
+button:hover
+{
+	box-shadow: none;
+}
+.and:hover
+{
+	color:#3DDC84;
+}
+.app:hover
+{
+	color: silver;
+}
+.ho:hover
+{
+	color: orange;
+}

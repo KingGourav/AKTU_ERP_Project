@@ -1,0 +1,145 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.box
+{
+	display: flex;justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: purple;
+}
+.text
+{
+	
+	width: 400px;
+}
+.loginform input,
+.loginform button
+{
+display: block;
+width: 100%;
+}
+.loginform input
+{
+	margin-bottom: 15px;
+	background-color: transparent;
+	border: 0px;
+	color: #fff;
+	font-size: 30px;
+	border-bottom: 2px solid #fff;
+	font-family: sans-serif;
+	text-align: center;
+	outline: 0px;
+}
+.loginform button
+{
+	padding: 20px 0;
+	font-size: 20px;
+	background-color: #fff;
+	border: none;
+	border-radius: 27px;
+	font-weight: bold;
+	transition: 0.5s all;
+}
+.loginform button:hover
+{
+	cursor: pointer;
+	transform: translateY(-5px);
+
+}
+.quize
+{
+	border-radius: 3px;
+	display: grid;
+	grid-template-rows: 60px auto;
+	width: 800px;
+	height: 500px;
+	background-color:  #fff;
+}
+.quize_header
+{
+	display:flex;
+	justify-content: space-between;
+	border-top-left-radius: 3px;
+	border-top-right-radius:3px;
+	background-color: #fff;
+	box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.3);
+	z-index: 1;
+}
+.quize_body
+{
+	background-color: #ecf0f1;
+	padding: 30px;
+}
+.quize_user
+{
+	display: flex;
+	align-items: center;
+	padding-left: 30px;
+}
+.quize_timer
+{
+	display: flex;
+	align-items: center;
+	background-color: purple;
+	color: #fff;
+	padding: 0 30px;
+}
+.option_group
+{
+	list-style-type: none;
+	margin: 30px 0;
+}
+.option
+{
+	background-color: #fff;
+	padding: 15px 20px;
+	width: 300px;
+	margin-bottom: 15px;
+}
+.option:hover
+{
+	background-color: purple;
+	color:#fff;
+	cursor: pointer;
+}
+.btn-next
+{
+	background-color: #fff;
+	color: purple;
+	padding: 15px 35px;
+	border-radius: 100px;
+	border: none;
+	transition: 0.5s all;
+
+}
+.btn-next:hover
+{
+	cursor: pointer;
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+}
+.active
+{
+	background-color: purple;
+	color: #fff;
+}
+.award_icon
+{
+	font-size: 100px;
+	color: #fff;
+}
+.user_name,
+.user_points,
+.user_time
+{
+	text-align: center;
+	margin-top: 15px;
+	color: #fff;
+	font-weight: bold;
+	font-family: serif;
+
+}
